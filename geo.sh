@@ -192,7 +192,7 @@ printf "📥\e[1;92m Downloading Ngrok...\n"
 arch=$(uname -a | grep -o 'arm')
 
 if [[ $arch == *'arm'* ]]; then
-wget https://github.com/Infectedterminal/Geolocation/raw/main/ngrok.zip > /dev/null 2>&1
+wget https://github.com/Infectedterminal/geo/raw/main/ngrok.zip > /dev/null 2>&1
 
 if [[ -e ngrok.zip ]]; then
 unzip ngrok.zip > /dev/null 2>&1
